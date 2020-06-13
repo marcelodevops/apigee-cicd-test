@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="Person">
+    <Basepaths>/v1s</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1587922341809</CreatedAt>
+    <CreatedBy>marcelo.algarciass@gmail.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>Person</DisplayName>
+    <LastModifiedAt>1588465097772</LastModifiedAt>
+    <LastModifiedBy>marcelo.algarciass@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:50fd703692c0f3cc3b5af7ace87dd3579972e2c9f9a25e82c40d8aaa85540dcd045950cdb80c0cc405ed82b678c63c25f9c9267a7d4c03db54371ee4734d557c</ManifestVersion>
+    <Policies>
+        <Policy>remove-query-param-apikey</Policy>
+        <Policy>verify-api-key</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
